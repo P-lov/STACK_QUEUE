@@ -3,6 +3,7 @@
 #include "stack.h"
 
 
+
 void StackInit(ST* ps) {
 	assert(ps);
 	ps->a = NULL;
@@ -69,3 +70,4 @@ void StackDestory(ST* ps) {
 	ps->capacity = ps->top = 0;
 
 }
+

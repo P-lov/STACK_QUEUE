@@ -21,4 +21,7 @@ void StackPop(ST* ps);
 STDataType StackTop(ST* ps);
 int StackSize(ST* ps);
 bool StackEmpty(ST* ps);
+
 void StackData(ST* ps); // Êý¾Ý³öÕ»
+
+
